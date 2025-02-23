@@ -39,16 +39,11 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                 SecurityContextHolder.getContext().setAuthentication(auth);
 
                 System.out.println("Autenticación exitosa para el usuario: " + username);
-            } else {
-                System.out.println("No se encontró un token válido en la solicitud.");
             }
         } catch (Exception e) {
             System.err.println("Error durante la autenticación JWT: " + e.getMessage());
-            response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Error en la autenticación: " + e.getMessage());
-            return;
         }
 
         filterChain.doFilter(request, response);
     }
-
 }

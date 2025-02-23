@@ -16,10 +16,10 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import utez.edu.mx.Gestion_persona.security.jwt.JwtAuthenticationFilter;
 import utez.edu.mx.Gestion_persona.security.service.UserDetailsServiceImpl;
-
 
 import java.util.List;
 
@@ -29,7 +29,6 @@ import java.util.List;
 public class MainSecurity {
     private static final String[] WHITE_LIST = {
             "/api/auth/**",
-            "/api/usuarios/crear/USER_ROLE",
     };
 
     private final UserDetailsServiceImpl service;
@@ -62,6 +61,16 @@ public class MainSecurity {
     }
 
     @Bean
+    public AccessDeniedHandler accessDeniedHandler() {
+        return new CustomAccessDeniedHandler(); // Manejador para 403
+    }
+
+    @Bean
+    public CustomAuthenticationEntryPoint authenticationEntryPoint() {
+        return new CustomAuthenticationEntryPoint(); // Manejador para 401 (redirigido a 403)
+    }
+
+    @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.cors(cors -> cors.configurationSource(request -> {
                     var corsConfig = new org.springframework.web.cors.CorsConfiguration();
@@ -83,6 +92,10 @@ public class MainSecurity {
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authenticationProvider(authenticationProvider())
                 .addFilterBefore(jwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class)
+                .exceptionHandling(exception -> exception
+                        .accessDeniedHandler(accessDeniedHandler())
+                        .authenticationEntryPoint(authenticationEntryPoint())
+                )
                 .logout(out -> out.logoutUrl("/api/auth/logout").clearAuthentication(true));
         return http.build();
     }
