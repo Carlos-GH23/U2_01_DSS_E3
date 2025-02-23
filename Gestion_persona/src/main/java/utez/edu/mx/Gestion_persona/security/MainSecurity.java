@@ -29,6 +29,7 @@ import java.util.List;
 public class MainSecurity {
     private static final String[] WHITE_LIST = {
             "/api/auth/**",
+
     };
 
     private final UserDetailsServiceImpl service;
@@ -54,6 +55,8 @@ public class MainSecurity {
     public AuthenticationManager authenticationManager(AuthenticationConfiguration configuration) throws Exception {
         return configuration.getAuthenticationManager();
     }
+
+
 
     @Bean
     public JwtAuthenticationFilter jwtAuthenticationFilter() {
