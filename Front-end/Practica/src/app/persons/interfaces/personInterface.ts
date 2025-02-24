@@ -27,4 +27,11 @@ export interface ApiResponseDelete {
     error: false,
     message: "Registro Eliminado",
   };
+
+  export interface ApiResponseGet {
+    data: User;
+    status: string;
+    error: boolean;
+    message: string | null;
+  }
   
