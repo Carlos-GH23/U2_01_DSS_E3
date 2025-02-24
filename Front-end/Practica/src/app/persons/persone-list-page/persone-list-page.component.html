@@ -20,7 +20,7 @@
                 <td>{{user.age}}</td>
                 <td class="">
                     <button class="btn btn-primary mx-1">Editar</button>
-                    <button class="btn btn-danger">Eliminar</button>
+                    <button (click)="DelateUsers(user.id)" class="btn btn-danger">Eliminar</button>
                 </td>
             </tr>
         </tbody>

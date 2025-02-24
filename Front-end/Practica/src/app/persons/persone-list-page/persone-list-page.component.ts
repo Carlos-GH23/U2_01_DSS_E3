@@ -29,4 +29,18 @@ export class PersoneListPageComponent {
       }
     );
   }
+
+  DelateUsers(id:number): void {
+    this.personService.deleteUsuario(id).subscribe(
+      (data) => {
+        console.log(data)
+      },
+      (error) => {
+        console.error('Error al eliminar', error);
+      }
+    );
+  }
+
+
+
 }

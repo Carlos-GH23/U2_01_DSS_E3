@@ -12,3 +12,19 @@ export interface ApiResponse {
     error: boolean;      // Indica si hubo un error
     message: string | null; // Mensaje adicional (puede ser null)
 }
+
+export interface ApiResponseDelete {
+    data: any | null;
+    status: string;
+    error: boolean;
+    message: string;
+  }
+  
+  // Ejemplo de uso
+  const response: ApiResponseDelete = {
+    data: null,
+    status: "OK",
+    error: false,
+    message: "Registro Eliminado",
+  };
+  
