@@ -6,16 +6,53 @@
   <component name="ChangeListManager">
     <list default="true" id="6efdd757-2c68-4ddb-9be6-a4ae11ae1b89" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Practicas/src/app/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Practicas/src/app/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/PersonaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/PersonaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/auth/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_persona/target/classes/utez/edu/mx/Gestion_persona/controllers/PersonaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/target/classes/utez/edu/mx/Gestion_persona/controllers/PersonaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_persona/target/classes/utez/edu/mx/Gestion_persona/controllers/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/target/classes/utez/edu/mx/Gestion_persona/controllers/RoleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_persona/target/classes/utez/edu/mx/Gestion_persona/controllers/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/target/classes/utez/edu/mx/Gestion_persona/controllers/UsuarioController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/proxy.conf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.config.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.routes.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/auth.guard.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/auth.guard.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/auth.service.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/components/navbar/navbar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/components/navbar/navbar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/components/navbar/navbar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/components/navbar/navbar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/login/login.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/login/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/login/login.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/login/login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/persons/persons.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/persons/persons.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/persons/persons.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/persons/persons.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/img/Logo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/img/Logo_1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/main.server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/security/MainSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/security/MainSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_persona/target/classes/utez/edu/mx/Gestion_persona/security/MainSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/target/classes/utez/edu/mx/Gestion_persona/security/MainSecurity.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,31 +70,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.GestionPersonaApplication.executor": "Run",
-    "git-widget-placeholder": "Back-End",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ST/Desktop/U2_01_DSS_E3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.GestionPersonaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Back-End&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ST/Desktop/U2_01_DSS_E3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="GestionPersonaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="23" />
@@ -89,7 +126,9 @@
       <workItem from="1740348753074" duration="384000" />
       <workItem from="1740349143736" duration="101000" />
       <workItem from="1740359033553" duration="68000" />
-      <workItem from="1740359110451" duration="4104000" />
+      <workItem from="1740359110451" duration="4983000" />
+      <workItem from="1740374363983" duration="3987000" />
+      <workItem from="1740404554316" duration="6386000" />
     </task>
     <servers />
   </component>
