@@ -1,0 +1,28 @@
+
+<div class="container mt-2">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Email</th>
+                <th>Telefono</th>
+                <th>Edad</th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users">
+                <td>{{ user.id }}</td>
+                <td>{{ user.name }}</td>
+                <td>{{ user.email }}</td>
+                <td>{{user.telefono}}</td>
+                <td>{{user.age}}</td>
+                <td class="">
+                    <button class="btn btn-primary mx-1">Editar</button>
+                    <button (click)="DelateUsers(user.id)" class="btn btn-danger">Eliminar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

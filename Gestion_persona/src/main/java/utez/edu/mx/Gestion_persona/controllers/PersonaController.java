@@ -1,6 +1,7 @@
 package utez.edu.mx.Gestion_persona.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -9,6 +10,7 @@ import utez.edu.mx.Gestion_persona.models.entity.PersonBean;
 import utez.edu.mx.Gestion_persona.services.PersonService;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/api/personas")
 @Validated
 public class PersonaController {

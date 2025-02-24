@@ -1,0 +1,24 @@
+<div class="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class="card" style="width: 25rem;">
+      <div class="card-body">
+        <h5 class="card-title text-center">Iniciar Sesión</h5>
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo Electrónico</label>
+            <input formControlName="usuario"
+            type="email" class="form-control" id="email" required placeholder="tuemail@ejemplo.com" ngModel name="email">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Contraseña</label>
+            <input formControlName="contrasenia" placeholder="Contraseña"
+            type="password" class="form-control" id="password" required placeholder="******" ngModel name="password">
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+        </form>
+        <div class="text-center mt-3">
+          <a href="#" class="text-muted">¿Olvidaste tu contraseña?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  

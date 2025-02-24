@@ -11,11 +11,13 @@ import org.springframework.web.bind.annotation.*;
 import utez.edu.mx.Gestion_persona.config.ApiResponse;
 import utez.edu.mx.Gestion_persona.models.dto.UserDto;
 import utez.edu.mx.Gestion_persona.services.UsuarioService;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.List;
 import java.util.Optional;
 
 @RestController
+@CrossOrigin
 @RequestMapping("/api/usuarios")
 @Validated
 public class UsuarioController {
