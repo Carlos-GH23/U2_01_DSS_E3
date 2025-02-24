@@ -17,17 +17,15 @@ export class LoginComponent {
 
   onSubmit() {
     if (this.usuario && this.contrasenia) {
-      this.loading = true; // Inicia el estado de carga
+      this.loading = true;
 
       this.authService.login(this.usuario, this.contrasenia).subscribe(
         response => {
-          // Maneja la respuesta del login, por ejemplo, redirige al dashboard
           console.log('Login exitoso:', response);
-          this.loading = false; // Detiene el estado de carga
-          // Aquí puedes redirigir a otra página o manejar el estado del usuario
+          this.loading = false; 
         },
         error => {
-          this.loading = false; // Detiene el estado de carga
+          this.loading = false;
         }
       );
     }

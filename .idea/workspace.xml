@@ -5,17 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6efdd757-2c68-4ddb-9be6-a4ae11ae1b89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Practicas/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Practicas/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Practicas/src/app/app.routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/auth.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Practicas/src/app/auth.guard.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Practicas/src/app/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Practicas/src/app/auth.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/Practicas/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/Practicas/src/app/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gestion_persona/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/PersonaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/PersonaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/auth/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/src/main/java/utez/edu/mx/Gestion_persona/controllers/auth/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_persona/target/classes/utez/edu/mx/Gestion_persona/controllers/PersonaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/target/classes/utez/edu/mx/Gestion_persona/controllers/PersonaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_persona/target/classes/utez/edu/mx/Gestion_persona/controllers/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/target/classes/utez/edu/mx/Gestion_persona/controllers/RoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gestion_persona/target/classes/utez/edu/mx/Gestion_persona/controllers/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Gestion_persona/target/classes/utez/edu/mx/Gestion_persona/controllers/UsuarioController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,7 @@
       <workItem from="1740348753074" duration="384000" />
       <workItem from="1740349143736" duration="101000" />
       <workItem from="1740359033553" duration="68000" />
-      <workItem from="1740359110451" duration="1804000" />
+      <workItem from="1740359110451" duration="4104000" />
     </task>
     <servers />
   </component>

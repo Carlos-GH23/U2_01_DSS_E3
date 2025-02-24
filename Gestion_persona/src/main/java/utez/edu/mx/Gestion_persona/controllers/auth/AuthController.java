@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.*;
 import utez.edu.mx.Gestion_persona.config.ApiResponse;
 import utez.edu.mx.Gestion_persona.controllers.auth.Dto.SignDto;
 import utez.edu.mx.Gestion_persona.services.auth.AuthService;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
 
 
 @RestController
